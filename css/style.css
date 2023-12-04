@@ -32,6 +32,12 @@ body {
     font-size: 75px;
 }
 
+.summary {
+    margin: 80px;
+    font-size: larger;
+    text-align: center;
+}
+
 .footer {
     background-color: #C05746;
     border-radius: 50px;
