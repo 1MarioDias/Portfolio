@@ -88,8 +88,8 @@
 }
 
 .previous_work {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding: 20px;
     border-radius: 50px;
     background-color: #54514c;
@@ -97,11 +97,6 @@
 }
 
 .beat_compilation{
-    border: 2px;
-    border-style: solid;
-    border-color: #C05746;
-    border-radius: 20px;
-    border-width: auto;
     padding: 20px;
     text-align: center;
     width: auto;
