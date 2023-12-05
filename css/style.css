@@ -68,6 +68,7 @@ body {
 .socials {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .leftover_menu_space {
