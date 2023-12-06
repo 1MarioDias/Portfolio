@@ -1,0 +1,47 @@
+.projects {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #54514c;
+    margin: 80px;
+}
+
+.projects_headline, .projects_description {
+    text-align: center;
+}
+
+.projects_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6px;
+    row-gap: 6px;
+}
+
+.projects_card {
+    border: 2px;
+    border-style: solid;
+    border-color: #C05746;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.project_date{
+    text-align: end;
+}
+
+.project_img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.projects_card:hover .project_name {
+    color: #C05746;
+    transition: 200ms;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
