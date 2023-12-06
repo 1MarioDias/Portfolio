@@ -74,4 +74,8 @@
     .projects_grid {
         grid-template-columns: repeat(1, 1fr);
     }
+    .projects_card {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
