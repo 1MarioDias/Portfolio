@@ -35,9 +35,24 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .div_header_container {
+        left: 0;
+        right: 0;
+        transform: none;
         width: auto;
-        left: auto;
-        transform: translateX(0%);
+    }
+
+    .nav_items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav_single_item {
+        margin-bottom: 0;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
     }
 }

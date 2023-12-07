@@ -1,8 +1,10 @@
 .bundles_grid {
-    margin: 80px;
+    margin-left: 4%;
+    margin-right: 4%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 6px;
+    row-gap: 6px;
 }
 
 .bundle_card {
@@ -90,6 +92,7 @@
 .previous_work {
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 80px;
     padding: 20px;
     border-radius: 50px;
     background-color: #54514c;
@@ -104,6 +107,33 @@
 
 @media only screen and (max-width: 768px) {
     .bundles_grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .previous_work {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .beat_compilation {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .beat_compilation iframe {
+        width: 100%;
+    }
+
+    .completed_tracks {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tracks_card {
+        width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
     }
 }

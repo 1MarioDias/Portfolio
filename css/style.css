@@ -15,6 +15,7 @@ body {
     border-radius: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -33,7 +34,10 @@ body {
 }
 
 .summary {
-    margin: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: larger;
     text-align: center;
 }
@@ -76,9 +80,14 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .header_content {
+        line-height: 1;
+    }
+
     .header_title {
         font-size: 75px;
     }
+
     .header_subtitle {
         font-size: 37px;
     }
